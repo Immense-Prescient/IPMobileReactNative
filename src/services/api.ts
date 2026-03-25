@@ -1,5 +1,6 @@
 import {Product} from '../types';
 
+
 const API_BASE_URL = 'https://api.example.com';
 
 export const apiService = {
