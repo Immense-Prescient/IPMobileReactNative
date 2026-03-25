@@ -64,8 +64,6 @@ yarn-error.log
 !.yarn/versions
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Logs
@@ -73,11 +71,14 @@ logs
 *.log
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
 .idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
